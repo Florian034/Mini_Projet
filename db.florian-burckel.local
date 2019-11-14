@@ -1,0 +1,20 @@
+;------------ florian-burckel.master -------------
+
+$TTL 1h;
+@ IN SOA dns.florian-burckel.local. root.florian-burckel.local (
+        2019101701 ; Serial
+        3600 ; Refresh(1h)
+        3600 ; Retry(1h)
+        3600000 ; Expire(41j)
+        86400 ) ; Minimum(24h)
+
+$ORIGIN florian-burckel.local.
+
+@       IN      NS      dns
+@       IN      MX      0 mail
+
+dns             IN      A       10.214.4.41
+mail            IN      A	10.214.4.41       
+smtp		IN	A	10.214.4.41
+pop		IN	A	10.214.4.41
+imap		IN	A	10.214.4.41

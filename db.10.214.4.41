@@ -1,0 +1,12 @@
+;------------db.10.214.4.41-------------
+$TTL 1h;
+@ IN SOA dns.florian-burckel.local. root.florian-burckel.local (
+        2015091301 ; Serial
+        3600 ; Refresh(1h)
+        3600 ; Retry(1h)
+        3600000 ; Expire(41j)
+        86400 ) ; Minimum(24h)
+
+@ IN NS dns.florian-burckel.local.
+
+10.214.4.41 IN PTR dns.florian-burckel.local.
